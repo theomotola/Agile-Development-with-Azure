@@ -11,13 +11,13 @@ variables:
   azureServiceConnectionId: 'ab4143bb-b93b-4575-9819-29fedd996652'
 
   # Web app name
-  webAppName: 'adatumto'
+  webAppName: 'Agile-Development-with-azure--flask'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'adatumto'
+  environmentName: 'Agile-Development-with-azure--flask'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
