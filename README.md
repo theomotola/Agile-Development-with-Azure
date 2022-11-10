@@ -118,7 +118,7 @@ def test_hello_subtract():
     assert subtract(test_hello_subtract.x) == 9
 ```
 
-### . Local Test
+### Local Test
 
 Now it is time to run `make all` which will install, lint, and test code. This enables us to ensure we don't check in broken code to GitHub as it installs, lints, and tests the code in one command. Later we will have a remote build server perform the same step.
 
@@ -142,7 +142,7 @@ Then, we want to make sure whether we call call our ML API. Open another termina
 
 Since we got the prediction value, it means our application works perfectly on our localhost. Then we will modify the port in app.py to 443 and commit our changes to the repo. 
 
-### 4. Clone Project into Azure Cloud Shell
+### Clone Project into Azure Cloud Shell
 
 Go to Azure Portal, click the Azure CLI, and clone the project. And we can do the same steps like above in our Azure Cloud Shell.
 
