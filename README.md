@@ -1,5 +1,4 @@
-# Azure Infrastructure Operations Project: Deploying a scalable IaaS web server in Azure
-
+# Agile Development with Azure: Build, Test, Deploy and Operationalize a Machine Learning Project
 ## Introduction
 
 The infrastructure as code gives us a huge advantage in defining, deploying, updating and destroying our infrastructure. So to set up an image which contains our application for repeatable deployments, we will use packer to create the virtual machine images(in JSON format).
