@@ -1,7 +1,8 @@
 # Agile Development with Azure: Build, Test, Deploy and Operationalize a Machine Learning Project
 ## Introduction
 
-This project will start with creating a scaffolding to assist in performing Continuous Integration and Continuous Delivery. And then it will use Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle. Lastly, we will integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
+In this project, I will build a Github repository from scratch and create a scaffolding that will assist me in performing both Continuous Integration and Continuous Delivery. I'll use Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle. Next, I'll integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
+
 
 ## Project Plan
 
@@ -12,16 +13,15 @@ https://trello.com/b/Ua1O1dSn/create-ci-cd-pipeline
 ### Spreadsheet Project Plan
 
 https://docs.google.com/spreadsheets/d/10TB6OXX8196cBgYHUD4E6tcd--r-CuljEN8CGN7dNSU/edit?usp=sharing
-## Architectural Diagram
-![architecture diagram](./images/Architecture.png)
+
 
 ## CI: Set Up Azure Cloud Shell
 
-### 1: Create the Cloud-Based Development Environment
+### : Creating the Cloud-Based Development Environment
 
-:white_check_mark: Create a Github repository
+:white_check_mark: Setup a Github repository
 
-:white_check_mark: Launch an Azure Cloud Shell environment and create ssh-keys. Upload these keys to your GitHub account.
+:white_check_mark: Launch an Azure Cloud Shell environment and create the ssh-keys. Upload these keys to your GitHub account.
 
 **Steps:**
 
@@ -34,10 +34,6 @@ https://docs.google.com/spreadsheets/d/10TB6OXX8196cBgYHUD4E6tcd--r-CuljEN8CGN7d
 - Copy the generated key and go to GitHub. Click the settings and paste the key.
 
 ![GitHub Setting](./images/GitHubSetting.png)
-
-### 2. Create Project Scaffolding
-
-The environment is set up, we can create the scaffolding for our project and test our code.
 
 **Create the Makefile**
 
@@ -122,7 +118,7 @@ def test_hello_subtract():
     assert subtract(test_hello_subtract.x) == 9
 ```
 
-### 3. Local Test
+### . Local Test
 
 Now it is time to run `make all` which will install, lint, and test code. This enables us to ensure we don't check in broken code to GitHub as it installs, lints, and tests the code in one command. Later we will have a remote build server perform the same step.
 
