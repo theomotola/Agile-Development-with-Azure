@@ -1,4 +1,4 @@
-# Agile Development with Azure: Build, Test, Deploy and Operationalize a Machine Learning Project
+ # Agile Development with Azure: Build, Test, Deploy and Operationalize a Machine Learning Project
 ## Introduction
 
 In this project, I will build a Github repository from scratch and create a scaffolding that will assist me in performing both Continuous Integration and Continuous Delivery. I'll use Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle. Next, I'll integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
@@ -198,9 +198,7 @@ To start with, we need to authorize Azure APP Service. You can create a APP Serv
 az webapp up -n <your-appservice>az webapp config set -g <your-resource-group> -n <your-appservice> --startup-file <your-startup-file-or-command>
 ```
 
-![authorize web app](./images/authorizewebapp.png)
-
-![app service is ready](./images/appserviceisready.png)
+![authorize web app](./images/appauthorize.png)
 
 ## 2. Enable Continuous Deployment with Azure Pipelines
 
