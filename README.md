@@ -34,11 +34,6 @@ https://docs.google.com/spreadsheets/d/10TB6OXX8196cBgYHUD4E6tcd--r-CuljEN8CGN7d
 - Copy the generated key and go to GitHub. Click the settings and paste the key.
 
 **Create the Makefile**
-```python3 -m venv ~/.udacity-azure-project2
-source ~/.udacity-azure-project2/bin/activate
-```
-
-**Create the Makefile**
 
 Create a file named Makefile and copy the below code into it. (Remember to use tab formatting). Makefile is a handy way to create shortcuts to build, test, and deploy a project.
 
@@ -58,7 +53,7 @@ all: install lint test
 
 **Create requirements.txt**
 
-Create a file named requirements.txt. A requirements.txt is a convenient way to list what packages a project needs. Another optional best practice would be to "pin" the exact version of the package you use.
+Create a file named requirements.txt. This is a convenient way to include what packages needed by the project. 
 
 ```
 pylint
@@ -66,8 +61,7 @@ pytest
 ```
 
 **Create the Python Virtual Environment**
-
-You can create a Python virtual environment both locally and inside your Azure Cloud Shell environment. By creating the virtual environment in a home directory it won't accidentally be checked into your project.
+This can be done both locally and inside your Azure Cloud Shell environment. Creating the virtual environment in a home directory avoids accidental checks into the project.
 
 ```bash
 pip install virtualenv
