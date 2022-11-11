@@ -40,7 +40,7 @@ cat ~/.ssh/id_rsa.pub
 
 Then repository from the Azure Shell can be cloned.
 ```
-git clone https://github.com/theomotola/Building-a-CI-CD-Pipeline.git
+git clone https://github.com/theomotola/Agile-Development-with-Azure.git
 ```
 
 ![GitHub Setting](./images/gitclone.png)
