@@ -36,9 +36,9 @@ https://docs.google.com/spreadsheets/d/10TB6OXX8196cBgYHUD4E6tcd--r-CuljEN8CGN7d
 ![GitHub Setting](./images/GitHubSetting.png)
 
 **Create the Makefile**
-`python3 -m venv ~/.udacity-azure-project2
-'source ~/.udacity-azure-project2/bin/activate
-
+```python3 -m venv ~/.udacity-azure-project2
+source ~/.udacity-azure-project2/bin/activate
+```
 
 **Create the Makefile**
 
