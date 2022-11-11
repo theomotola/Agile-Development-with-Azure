@@ -27,10 +27,9 @@ https://docs.google.com/spreadsheets/d/10TB6OXX8196cBgYHUD4E6tcd--r-CuljEN8CGN7d
 
 - Go to Azure Portal and  Click Azure Cloud Shell
 - To generate a key, type the following;
+
 ```ssh-keygen -t rsa
 ```
-
-
 
 ![ssh keygen](./images/sshkeygen.png)
 
