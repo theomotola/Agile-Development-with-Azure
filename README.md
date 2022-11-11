@@ -43,7 +43,7 @@ Then repository from the Azure Shell can be cloned.
 git clone https://github.com/theomotola/Building-a-CI-CD-Pipeline.git
 ```
 
-![GitHub Setting](./images/GitHubSetting.png)
+![GitHub Setting](./images/gitclone.png)
 
 **Create the Makefile**
 
