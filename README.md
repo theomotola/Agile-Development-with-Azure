@@ -12,7 +12,7 @@ https://trello.com/b/xxZta7Ds/building-a-ci-cd-pipeline
 
 ### Spreadsheet Project Plan
 
-https://docs.google.com/spreadsheets/d/10TB6OXX8196cBgYHUD4E6tcd--r-CuljEN8CGN7dNSU/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1y6JtaH0gPq7kVTwbCoZKk3wia-XyDDzLTqvos0Is5NY/edit?usp=sharing
 
 
 ## CI: Set Up Azure Cloud Shell
