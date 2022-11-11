@@ -197,15 +197,12 @@ To start with, we need to authorize Azure APP Service. You can create a APP Serv
 ```bash
 az webapp up -n <your-appservice>az webapp config set -g <your-resource-group> -n <your-appservice> --startup-file <your-startup-file-or-command>
 ```
+
 ## 2. Enable Continuous Deployment with Azure Pipelines
 
-Then we want to use Azure pipelines to deploy our flask ML web application. To do so, we need to create a Azure DevOps Project and then establish a service connection for Azure Pipelines and Azure App Service first. 
+Then we want to use Azure pipelines to deploy our flask ML web application. Create an Azure DevOps Project and then set a service connection for Azure Pipelines and Azure App Service first. 
 
-Here is the tutorial you can follow along.
-
-[Use CI/CD to deploy a Python web app to Azure App Service on Linux](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl)
-
-After that, the Flask ML Web Application is deployed successful with Azure Pipelines. 
+Next, the Flask ML Web Application is deployed successful with Azure Pipelines. 
 
 ![successdeploywithazurepipeline](./images/azpipelinedeploy.png)
 
