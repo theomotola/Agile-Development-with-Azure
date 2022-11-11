@@ -30,7 +30,7 @@ https://docs.google.com/spreadsheets/d/10TB6OXX8196cBgYHUD4E6tcd--r-CuljEN8CGN7d
 
 ![ssh keygen](./images/sshkeygen.png)
 
-- Type `cat /home/jenny/.ssh/id_rsa.pub` to generate the key.
+- Type `cat /Users/omotolaolowosule/-ssh/id ed25510` to generate the key.
 - Copy the generated key and go to GitHub. Click the settings and paste the key.
 
 ![GitHub Setting](./images/GitHubSetting.png)
