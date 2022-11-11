@@ -36,6 +36,11 @@ https://docs.google.com/spreadsheets/d/10TB6OXX8196cBgYHUD4E6tcd--r-CuljEN8CGN7d
 ![GitHub Setting](./images/GitHubSetting.png)
 
 **Create the Makefile**
+`python3 -m venv ~/.udacity-azure-project2
+'source ~/.udacity-azure-project2/bin/activate
+
+
+**Create the Makefile**
 
 Create a file named Makefile and copy the below code into it. (Remember to use tab formatting). Makefile is a handy way to create shortcuts to build, test, and deploy a project.
 
