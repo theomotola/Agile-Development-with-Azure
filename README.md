@@ -175,7 +175,7 @@ jobs:
       run: |
         make test
 ```
-![install](./images/installpytest.png)
+![install](./images/installpytesting.png)
 ![lint build test](./images/buildandtest.png)
 ![clear run](./images/clearrun.png)
 
