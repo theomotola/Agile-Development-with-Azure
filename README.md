@@ -141,7 +141,7 @@ After running my tests locally, I want to run my python web application. Once it
 Python app.py
 ```
 
-![local host browser](./images/localhost.png)
+![local host browser](./images/localhosting.png)
 
 Then, we want to make sure whether we call call our ML API. Open another terminal and type `./make_prediction.sh` in our terminal. We will be able to see the prediction.
 
