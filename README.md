@@ -198,7 +198,7 @@ This part will involve setting up Azure Pipelines to deploy the Flask starter co
 locust
 ```
 
-![locust load test](./images/locust.png)
+![locust load test](./images/localhost.png)
 ### 1. Authorize Azure App Service
 
 Azure App Service is like our localhost but it is hosted in Azure. It is like a black-box localhost. Azure APP service is PaaS so we do not need to set up and maintain the Virtual Machines.It is easy to use. 
