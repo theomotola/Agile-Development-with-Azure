@@ -42,6 +42,9 @@ Then repository from the Azure Shell can be cloned.
 ```
 git clone https://github.com/theomotola/Building-a-CI-CD-Pipeline.git
 ```
+
+![GitHub Setting](./images/GitHubSetting.png)
+
 **Create the Makefile**
 
 Create a file named Makefile and copy the below code into it. Makefile is a great way to create shortcuts to build, test, and deploy a project.
