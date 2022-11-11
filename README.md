@@ -161,10 +161,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 3.5
+    - name: Set up Python 3.6
       uses: actions/setup-python@v1
       with:
-        python-version: 3.5
+        python-version: 3.6
     - name: Install dependencies
       run: |
         make install
@@ -175,7 +175,7 @@ jobs:
       run: |
         make test
 ```
-![install](./images/install.png)
+![install](./images/installpytest.png)
 ![lint build test](./images/buildandtest.png)
 ![clear run](./images/clearrun.png)
 
