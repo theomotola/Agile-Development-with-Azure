@@ -37,6 +37,7 @@ cat ~/.ssh/id_rsa.pub
 - Copy the generated key and go to GitHub. Click the settings and paste the key.
 
 **Clone the Repository**
+
 Then repository from the Azure Shell can be cloned.
 ```
 git clone https://github.com/theomotola/Building-a-CI-CD-Pipeline.git
