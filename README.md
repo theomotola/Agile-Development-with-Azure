@@ -211,7 +211,7 @@ Go to the App Service, and click the URL under the Essentials , we should be abl
 ![app service](./images/appauthorize.png)
 
 
-### **3. Stream Logs**
+### 3. Stream Logs**
 
 Here is the output of streamed log files from deployed application.
 
