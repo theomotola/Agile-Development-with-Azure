@@ -133,7 +133,7 @@ Now it is time to run `make all` which will install, lint, and test code. This e
 
 What is important to keep in mind is that we need to test our code locally first before we clone it to the Azure Cloud Shell. So I will install all the packages and test whether I can run the app.py application and make housing prediction successfully in my local machine first. 
 
-![make all](./images/makeall.png)
+![make all file](./images/makeall.png)
 
 After running my tests locally, I want to run my python web application. Once it is successfully, you will see Sklearn Prediction Home in your browser.
 
@@ -141,13 +141,11 @@ After running my tests locally, I want to run my python web application. Once it
 Python app.py
 ```
 
-![run python app](./images/runpythonapp.png)
-
 ![local host browser](./images/localhost.png)
 
 Then, we want to make sure whether we call call our ML API. Open another terminal and type `./make_prediction.sh` in our terminal. We will be able to see the prediction.
 
-![ml api](./images/mlapi.png)
+![machine learning](./images/makepredict.png)
 
 Since we got the prediction value, it means our application works perfectly on our localhost. Then we will modify the port in app.py to 443 and commit our changes to the repo. 
 
