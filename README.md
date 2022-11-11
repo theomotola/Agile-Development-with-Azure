@@ -26,16 +26,14 @@ https://docs.google.com/spreadsheets/d/10TB6OXX8196cBgYHUD4E6tcd--r-CuljEN8CGN7d
 **Steps:**
 
 - Go to Azure Portal and  Click Azure Cloud Shell
-- - To generate a key, type the following
+- To generate a key, type the following
 ```
 ssh-keygen -t rsa
 cat ~/.ssh/id_rsa.pub
 ```
-- Type `ssh-keygen -t rsa` to generate a key
 
 ![ssh keygen](./images/sshkeygen.png)
 
-- Type `cat ~/.ssh/id_rsa.pub` to generate the key.
 - Copy the generated key and go to GitHub. Click the settings and paste the key.
 
 **Create the Makefile**
