@@ -147,14 +147,6 @@ Then, we want to make sure whether we call call our ML API. Open another termina
 
 ![machine learning](./images/makepredict.png)
 
-Since we got the prediction value, it means our application works perfectly on our localhost. Then we will modify the port in app.py to 443 and commit our changes to the repo. 
-
-### Clone Project into Azure Cloud Shell
-
-Go to Azure Portal, click the Azure CLI, and clone the project. And we can do the same steps like above in our Azure Cloud Shell.
-
-![Github clone project](./images/GithubCloneProject.png)
-## CI: Configure GitHub Actions
 
 ### Replace yml code
 ```yaml
