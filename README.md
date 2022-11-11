@@ -221,15 +221,12 @@ Here is the output of streamed log files from deployed application.
 https://flaskmlapp.scm.azurewebsites.net/api/logs/docker 
 
 View the log file in App Service - Log Stream
-![logfiles](./images/logstream.png)
-## Enhancements
+![logfiles](./images/logfile.png)
 
-- This project can be enhanced by using the GitHub actions to deploy the web applications. We can utilize GitHub Actions as well as Azure Pipelines for continous delivery. Also, we can modify the pipeline and only triggers when there is a Pull Request.
-- Also, the whole process can be applied for other frameworks such as C# or Node.js.
+
 
 ## Demo
 
 https://www.youtube.com/watch?v=p5jgTdOToW0
 
 
-![Python application test with Github Actions](https://github.com/wujenny15/Udacity-Build-CI-CD-Pipeline/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg?branch=main)
