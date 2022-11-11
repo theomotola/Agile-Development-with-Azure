@@ -212,7 +212,7 @@ Here is the tutorial you can follow along.
 
 After that, the Flask ML Web Application is deployed successful with Azure Pipelines. 
 
-![successdeploywithazurepipeline](./images/successdeploywithazurepipeline.png)
+![successdeploywithazurepipeline](./images/azpipelinedeploy.png)
 
 Go to the App Service, and click the URL under the Essentials , we should be able to visit the website now. 
 
