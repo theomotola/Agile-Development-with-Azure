@@ -213,41 +213,13 @@ Go to the App Service, and click the URL under the Essentials , we should be abl
 
 ![app service](./images/appauthorize.png)
 
-**Verify Prediction with starter code file**
 
-Open Azure Cloud Shell, and go to our project directory. Run the `make_predict_azure_app.sh`
-
-in the CLI. Remeber to modify your app name.
-
-![azure prediction](./images/azureprediction.png)
-
-### 3. Enable GitHub and Azure Pipelines
-
-Now that we have set up the Azure Pipelines and deploy the Flask ML application on Azure, we want to make sure when we make any changes on our GitHub Repo, the Azure Pipelines will be triggered. The piplelines will run and the applications will automatically deployed to Azure App Service.
-
-I have modified the heading for my web application. When I commit the changes to GitHub, the Azure Pipleines will be triggered and it will deploy my new changes to the App Service.
-
-```python
-@app.route("/")def home():    
-	html = "<h3>Sklearn Prediction Home (Continuous Delivery Test)</h3>"    
-	return html.format(format)
-```
-
-To do this, we need to tell Azure Pipeline what are the triggers. Whether we want to deploy the web applications when we have made any changes  or when we create a Pull Request and merge our changes to the master branch. 
-
-To make it simple here, I just want to tell the Azure Pipeline to deploy the web applicatios when I have made any changes on my branch. You can always modify it to be triggered by a PR.
-
-![modify triggers](./images/modifytriggers.png)
-
-![trigger by changes](./images/triggerbychanges.png)
-
-### **4. Stream Logs**
+### **3. Stream Logs**
 
 Here is the output of streamed log files from deployed application.
 
-https://flaskmlapp.scm.azurewebsites.net/api/logs/docker
+https://flaskmlapp.scm.azurewebsites.net/api/logs/docker 
 
-![logfiles](./images/logfiles.png)
 View the log file in App Service - Log Stream
 ![logfiles](./images/logstream.png)
 ## Enhancements
