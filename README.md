@@ -39,7 +39,7 @@ cat ~/.ssh/id_rsa.pub
 **Clone the Repository**
 Then repository from the Azure Shell can be cloned.
 ```
-git clone https://github.com/theomotola/Agile-Development-with-Azure.git
+git clone https://github.com/theomotola/Building-a-CI-CD-Pipeline.git
 ```
 **Create the Makefile**
 
