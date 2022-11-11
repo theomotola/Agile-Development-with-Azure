@@ -176,8 +176,8 @@ jobs:
         make test
 ```
 ![install](./images/installpytesting.png)
-![lint build test](./images/buildandtest.png)
-![clear run](./images/clearrun.png)
+![lint build test](./images/appconfig2.png)
+![clear run](./images/appconfig.png)
 
 ## Continuous Delivery on Azure
 
