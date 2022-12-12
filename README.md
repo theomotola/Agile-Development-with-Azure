@@ -224,6 +224,6 @@ View the log file in App Service - Log Stream
 
 ## Demo
 
-https://www.youtube.com/watch?v=p5jgTdOToW0
+
 
 
