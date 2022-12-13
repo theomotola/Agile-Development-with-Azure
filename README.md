@@ -23,8 +23,10 @@ https://docs.google.com/spreadsheets/d/1y6JtaH0gPq7kVTwbCoZKk3wia-XyDDzLTqvos0Is
 
 :white_check_mark: Launch an Azure Cloud Shell environment and create the ssh-keys. Upload these keys to your GitHub account.
 
+### ![Architectural Diagram](./images/archdiagram.png)
+
 **Steps:**
-![Architectural Diagram](./images/archdiagram.png)
+
 - Go to Azure Portal and  Click Azure Cloud Shell
 - To generate a key, type the following
 ```
